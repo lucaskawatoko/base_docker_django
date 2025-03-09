@@ -1,0 +1,83 @@
+# 🐍 Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# 🛠️ Configuração de ambientes virtuais
+venv/
+.env
+.envrc
+*.env
+
+# 📦 Dependências do Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 📁 Arquivos de IDEs/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🐳 Arquivos do Docker
+*.pid
+*.tar
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.override.json
+.env.docker
+
+# 🚀 Arquivos do Django
+db.sqlite3
+*.db
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+
+# 📄 Arquivos de Migrations (opcional)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# 🏗️ Arquivos estáticos e de mídia (gerados automaticamente)
+static/
+media/
+staticfiles/
+
+# 🔥 Logs e arquivos de debug
+logs/
+*.log
+*.out
+*.err
+gunicorn.log
+gunicorn.err
+debug.log
+
+# 🔑 Chaves e credenciais sensíveis
+config/settings/local.py
+config/settings/dev.py
+config/settings/prod.py
+secrets.json
+
+# 🔄 Cache e arquivos temporários
+*.bak
+*.backup
+*.swp
+*.swo
+.nox/
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.cache/
+.tox/
+*.egg
+.eggs/
+dist/
+build/
+*.egg-info/
+
+# ⚠️ Arquivos de banco de dados do Postgres no Docker
+pg_data/
