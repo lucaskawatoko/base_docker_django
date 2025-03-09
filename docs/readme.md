@@ -169,6 +169,3 @@ docker-compose up --build
 Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar! 🚀
 
 ---
-
-Agora seu `README.md` está completo! 😃🔥  
-Se precisar de algo mais, me avise! 🚀
